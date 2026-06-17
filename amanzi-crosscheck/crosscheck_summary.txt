@@ -1,0 +1,38 @@
+Amanzi cross-check — port vs PFLOTRAN reference, t = 50 yr
+============================================================
+
+CALCITE (vs PFLOTRAN OS, calcite_1d/pflotran/os):
+  Total Ca [mol/L]
+    max |Δ|              : 2.4740e-04
+    RMS Δ                : 5.1118e-05  (5.60% of range)
+    front (half-level)   : ours  22.659 m vs ref  22.167 m   (Δ +0.491 m = +0.49 cells)
+  pH
+    max |Δ|              : 8.8068e-01
+    RMS Δ                : 1.1030e-01  (3.66% of range)
+    front (half-level)   : ours  22.556 m vs ref  22.126 m   (Δ +0.430 m = +0.43 cells)
+  Calcite volume fraction
+    max |Δ|              : 1.4468e-06
+    RMS Δ                : 1.4570e-07  (1.46% of range)
+    front (half-level)   : ours  23.017 m vs ref  23.109 m   (Δ -0.091 m = -0.09 cells)
+
+TRACER (vs PFLOTRAN, tracer_1d/pflotran):
+  Total tracer [mol/L]
+    max |Δ|              : 3.5211e-04
+    RMS Δ                : 1.0417e-04  (10.42% of range)
+    front (half-level)   : ours  49.962 m vs ref  49.869 m   (Δ +0.094 m = +0.09 cells)
+
+INTERPRETATION
+------------------------------------------------------------
+Front positions agree with the independent PFLOTRAN solution to well
+within a grid cell (calcite reaction front Δ ~0.1 m; Ca/pH fronts
+Δ ~0.4-0.5 m; tracer front Δ ~0.1 m), confirming the acceptance gate
+against a second code rather than self.
+The port's fronts are SHARPER than the PFLOTRAN reference (clearest in
+the tracer and the calcite Ca shoulder near 50 m). This is a scheme
+difference, not an error: the port advects with a 2nd-order Godunov
+scheme + min/max limiter near Courant 1 (low numerical dispersion),
+while these PFLOTRAN reference runs are more diffusive. The port's
+sharp tracer front is the near-analytic Courant-1 result and matches
+the paper's tracer panel that our baselines already reproduce. The
+large pointwise max-relative-Δ values are localized to these steep
+fronts / near-zero tails and are expected when comparing two codes.

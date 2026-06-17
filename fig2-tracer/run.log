@@ -1,0 +1,83 @@
+Node 0: Using process grid (1,1,1)
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Initializing geochemical system 
+Node 0: Successful creation of Alquimia interface
+ CrunchJunk0.out          
+
+  Title of simulation: Tracer simulation Amanzi tracer_1d benchmark - S. Molins March 23, 2015 
+
+
+  --> Running in OS3D mode (time splitting of reaction and transport) 
+
+  Extended Debye-Huckel activity model
+
+   ---> Using database: tracer.dbs                                                                                          
+
+  Number of components:                          1
+
+  Number of secondary species:                   0
+
+  Number of gases:                               0
+  No kinetic reactions involving minerals specified
+
+
+  Number of kinetic minerals:                    0
+
+  No surface complexation block found
+
+     --> Calling database subroutine
+
+
+  Number of reactions:                              0
+  Number of complexes:                              0
+  Number of minerals:                               0
+  Number of gases:                                  0
+
+     --> Finished reading database
+  No ion exchange block found
+  Fixing porosity at  0.2500
+  No update of porosity
+
+  Current density module: temperature
+
+
+  ---> READING GEOCHEMICAL CONDITIONS  
+
+  No aqueous kinetics block found
+  Retardation parameters not found
+  Assuming NO retardation (Kd = 0) 
+Node 0: Successful setup() of Alquimia interface
+-- Alquimia Sizes :
+     num primary species : 1
+     num sorbed : 0
+     num minerals : 0
+     num aqueous complexes : 0
+     num aqueous kinetics : 0
+     num surface sites : 0
+     num ion exchange sites : 0
+     num gases: 0
+     num auxiliary integers : 1
+     num auxiliary doubles : 7
+ meta sizes:            1
+Node 0: Successful GetProblemMetaData() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemICs() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemBCs() of Alquimia interface
+Node 0: Initial concentration volume for component tracer = 0.000000
+Node 0: Iter (1): ||r||_C = 1.004859e-14, ||r||_C/||b||_C = 6.377616e-17
+Node 0: Iter (2): ||r||_C = 6.431995e-31, ||r||_C/||b||_C = 4.082243e-33
+Node 0: Iter (3): ||r||_C = 3.215733e-46, ||r||_C/||b||_C = 2.040954e-48
+Node 0: Iter (4): ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Iterations = 4: ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Courant Numbers : [1.000000e+00 , 0.000000e+00, 0.000000e+00]
+Node 0: Maximum Field Value = 1.000000e+00
+Node 0: Concentration volume for component tracer at time 10.000000 = 0.002493
+Node 0: Concentration volume for component tracer at time 20.000000 = 0.004985
+Node 0: Concentration volume for component tracer at time 30.000000 = 0.007478
+Node 0: Concentration volume for component tracer at time 40.000000 = 0.009971
+Node 0: Concentration volume for component tracer at time 50.000000 = 0.012463
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Problem solved 

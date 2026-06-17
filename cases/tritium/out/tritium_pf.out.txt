@@ -1,0 +1,89 @@
+Node 0: Using process grid (1,1,1)
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Initializing geochemical system 
+Node 0: Successful creation of Alquimia interface
+ CrunchJunk0.out          
+
+  Title of simulation: Tritium decay 1D for Amanzi tritium_1d benchmark - S. Molins Sept 26, 20
+
+
+  --> Running in OS3D mode (time splitting of reaction and transport) 
+
+  Unit activity coefficients
+
+   ---> Using database: tritium.dbs                                                                                         
+
+  Number of components:                          2
+
+  Number of secondary species:                   0
+
+  Number of gases:                               0
+
+  Number of kinetic minerals:                    0
+
+  No surface complexation block found
+
+     --> Calling database subroutine
+
+
+  Number of reactions:                              0
+  Number of complexes:                              0
+  Number of minerals:                               0
+  Number of gases:                                  0
+
+     --> Finished reading database
+  No ion exchange block found
+  Fixing porosity at  0.2500
+  No update of porosity
+
+  Current density module: temperature
+
+
+  ---> READING GEOCHEMICAL CONDITIONS  
+
+  Aqueous kinetics block found
+ multipliers for reaction tritium_decay                                                                                                                        add up to:    1.0000000000000000     
+ Using TST rate formulation for reaction: tritium_decay  
+  Retardation parameters not found
+  Assuming NO retardation (Kd = 0) 
+Node 0: Successful setup() of Alquimia interface
+-- Alquimia Sizes :
+     num primary species : 2
+     num sorbed : 0
+     num minerals : 0
+     num aqueous complexes : 0
+     num aqueous kinetics : 1
+     num surface sites : 0
+     num ion exchange sites : 0
+     num gases: 0
+     num auxiliary integers : 1
+     num auxiliary doubles : 13
+ meta sizes:            2
+Node 0: Successful GetProblemMetaData() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemICs() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemBCs() of Alquimia interface
+Node 0: Initial concentration volume for component Tritium = 0.000000
+Node 0: Initial concentration volume for component Daughter = 0.000000
+Node 0: Iter (1): ||r||_C = 1.004859e-14, ||r||_C/||b||_C = 6.377616e-17
+Node 0: Iter (2): ||r||_C = 6.431995e-31, ||r||_C/||b||_C = 4.082243e-33
+Node 0: Iter (3): ||r||_C = 3.215733e-46, ||r||_C/||b||_C = 2.040954e-48
+Node 0: Iter (4): ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Iterations = 4: ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Courant Numbers : [1.000000e+00 , 0.000000e+00, 0.000000e+00]
+Node 0: Maximum Field Value = 1.000000e+00
+Node 0: Concentration volume for component Tritium at time 10.000000 = 0.001883
+Node 0: Concentration volume for component Daughter at time 10.000000 = 0.000610
+Node 0: Concentration volume for component Tritium at time 20.000000 = 0.002966
+Node 0: Concentration volume for component Daughter at time 20.000000 = 0.002020
+Node 0: Concentration volume for component Tritium at time 30.000000 = 0.003588
+Node 0: Concentration volume for component Daughter at time 30.000000 = 0.003890
+Node 0: Concentration volume for component Tritium at time 40.000000 = 0.003946
+Node 0: Concentration volume for component Daughter at time 40.000000 = 0.006024
+Node 0: Concentration volume for component Tritium at time 50.000000 = 0.004152
+Node 0: Concentration volume for component Daughter at time 50.000000 = 0.008311
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Problem solved 

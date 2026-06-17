@@ -1,0 +1,30 @@
+Amanzi cross-check — primary ref = CrunchFlow OS3D (operator-split, TVD); PFLOTRAN shown for context (t=50 yr)
+Front = half-max location (m); headline = port vs OS3D. RMS(port-PFLOTRAN) is a like-for-like (mol/L) shape check.
+==============================================================================
+
+TRACER
+  Total tracer [mol/L]     front[m]: OS3D  50.00  port  49.96  (port-OS3D -0.04) | PFLOTRAN  49.87  [RMS port-PFLO 10.4%]
+
+CALCITE
+  Total Ca [mol/L]         front[m]: OS3D  22.62  port  22.66  (port-OS3D +0.04) | PFLOTRAN  22.17  [RMS port-PFLO  5.6%]
+  pH                       front[m]: OS3D  22.52  port  22.56  (port-OS3D +0.04) | PFLOTRAN  22.13  [RMS port-PFLO  3.7%]
+  Calcite vol. fraction    front[m]: OS3D  23.03  port  23.02  (port-OS3D -0.01) | PFLOTRAN  23.11  [RMS port-PFLO  1.5%]
+
+TRITIUM
+  Total tritium [mol/L]    front[m]: OS3D  13.03  port  13.02  (port-OS3D -0.02) | PFLOTRAN  13.18  [RMS port-PFLO  0.7%]
+
+ION_EXCHANGE
+  Total Na+ [mol/L]        front[m]: OS3D  49.48  port  49.64  (port-OS3D +0.15) | PFLOTRAN  48.19  [RMS port-PFLO 10.6%]
+  Total Ca++ [mol/L]       front[m]: OS3D  50.53  port  50.34  (port-OS3D -0.20) | PFLOTRAN  51.65  [RMS port-PFLO 10.3%]
+  Total Mg++ [mol/L]       front[m]: OS3D  50.53  port  50.34  (port-OS3D -0.20) | PFLOTRAN  51.65  [RMS port-PFLO 10.3%]
+  Total Cl- [mol/L]        front[m]: OS3D  50.00  port  49.98  (port-OS3D -0.02) | PFLOTRAN  49.87  [RMS port-PFLO 10.3%]
+
+SURFACE_COMPLEXATION
+  Total H+ [mol/L]         front[m]: OS3D  31.84  port  31.97  (port-OS3D +0.13) | PFLOTRAN  31.23  [RMS port-PFLO  3.3%]
+  Total Na+ [mol/L]        front[m]: OS3D  50.00  port  49.98  (port-OS3D -0.02) | PFLOTRAN  49.87  [RMS port-PFLO 10.3%]
+  Total NO3- [mol/L]       front n/a (monotone/flat conservative species)  [RMS port-PFLO  nan%]
+  Total Zn++ [mol/L]       front[m]: OS3D  48.85  port  49.07  (port-OS3D +0.22) | PFLOTRAN  47.51  [RMS port-PFLO  7.9%]
+  pH                       front[m]: OS3D  18.29  port  18.37  (port-OS3D +0.09) | PFLOTRAN  17.76  [RMS port-PFLO  1.7%]
+
+ISOTHERMS
+  Total A [mol/L]          front[m]: OS3D  48.08  port  48.06  (port-OS3D -0.02) | PFLOTRAN  47.94  [RMS port-PFLO  9.7%]

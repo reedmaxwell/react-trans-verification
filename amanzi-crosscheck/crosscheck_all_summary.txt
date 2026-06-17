@@ -1,0 +1,30 @@
+Amanzi six-case cross-check — port vs PFLOTRAN, t = 50 yr
+(mobile species + pH; sorbed deferred pending unit check)
+================================================================
+
+TRACER
+  Total tracer [mol/L]     RMS 10.42% of range | front ours  49.96 vs ref  49.87 m (Δ+0.09)
+
+CALCITE
+  Total Ca [mol/L]         RMS  5.60% of range | front ours  22.66 vs ref  22.17 m (Δ+0.49)
+  pH                       RMS  3.66% of range | front ours  22.56 vs ref  22.13 m (Δ+0.43)
+  Calcite vol. fraction    RMS  1.46% of range | front ours  23.02 vs ref  23.11 m (Δ-0.09)
+
+TRITIUM
+  Total tritium [mol/L]    RMS  0.72% of range | front ours  13.02 vs ref  13.18 m (Δ-0.16)
+
+ION_EXCHANGE
+  Total Na+ [mol/L]        RMS 10.64% of range | front ours  49.64 vs ref  48.19 m (Δ+1.44)
+  Total Ca++ [mol/L]       RMS 10.33% of range | front ours  50.34 vs ref  51.65 m (Δ-1.31)
+  Total Mg++ [mol/L]       RMS 10.33% of range | front ours  50.34 vs ref  51.65 m (Δ-1.31)
+  Total Cl- [mol/L]        RMS 10.28% of range | front ours  49.98 vs ref  49.87 m (Δ+0.11)
+
+SURFACE_COMPLEXATION
+  Total H+ [mol/L]         RMS  3.34% of range | front ours  31.97 vs ref  31.23 m (Δ+0.74)
+  Total Na+ [mol/L]        RMS 10.34% of range | front ours  49.98 vs ref  49.87 m (Δ+0.11)
+  Total NO3- [mol/L]       RMS   nan% of range | front n/a (monotone/flat)
+  Total Zn++ [mol/L]       RMS  7.93% of range | front ours  49.07 vs ref  47.51 m (Δ+1.57)
+  pH                       RMS  1.68% of range | front ours  18.37 vs ref  17.76 m (Δ+0.62)
+
+ISOTHERMS
+  Total A [mol/L]          RMS  9.71% of range | front ours  48.06 vs ref  47.94 m (Δ+0.11)

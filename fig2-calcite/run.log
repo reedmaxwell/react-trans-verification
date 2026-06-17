@@ -1,0 +1,93 @@
+Node 0: Using process grid (1,1,1)
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Initializing geochemical system 
+Node 0: Successful creation of Alquimia interface
+ CrunchJunk0.out          
+
+  Title of simulation: Calcite dissolution for Amanzi calcite_1d benchmark - S. Molins Oct 1, 2
+
+
+  --> Running in GIMRT mode (global implicit reaction and transport) 
+
+  Extended Debye-Huckel activity model
+
+   ---> Using database: calcite.dbs                                                                                         
+
+  Number of components:                          3
+
+  Number of secondary species:                   6
+
+  Number of gases:                               1
+
+  Number of kinetic minerals:                    1
+
+  No surface complexation block found
+
+     --> Calling database subroutine
+
+
+  Number of reactions:                              8
+  Number of complexes:                              6
+  Number of minerals:                               1
+  Number of gases:                                  1
+
+     --> Finished reading database
+  No ion exchange block found
+  Fixing porosity at  0.2500
+  No update of porosity
+
+  Current density module: temperature
+
+
+  ---> READING GEOCHEMICAL CONDITIONS  
+
+  No aqueous kinetics block found
+  Retardation parameters not found
+  Assuming NO retardation (Kd = 0) 
+Node 0: Successful setup() of Alquimia interface
+-- Alquimia Sizes :
+     num primary species : 3
+     num sorbed : 0
+     num minerals : 1
+     num aqueous complexes : 6
+     num aqueous kinetics : 0
+     num surface sites : 0
+     num ion exchange sites : 0
+     num gases: 1
+     num auxiliary integers : 1
+     num auxiliary doubles : 25
+ meta sizes:            3
+Node 0: Successful GetProblemMetaData() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemICs() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemBCs() of Alquimia interface
+Node 0: Initial concentration volume for component H+ = 0.000415
+Node 0: Initial concentration volume for component HCO3- = 0.043938
+Node 0: Initial concentration volume for component Ca++ = 0.012904
+Node 0: Iter (1): ||r||_C = 1.004859e-14, ||r||_C/||b||_C = 6.377616e-17
+Node 0: Iter (2): ||r||_C = 6.431995e-31, ||r||_C/||b||_C = 4.082243e-33
+Node 0: Iter (3): ||r||_C = 3.215733e-46, ||r||_C/||b||_C = 2.040954e-48
+Node 0: Iter (4): ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Iterations = 4: ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Courant Numbers : [1.000000e+00 , 0.000000e+00, 0.000000e+00]
+Node 0: Maximum Field Value = 1.000000e+00
+Node 0: Concentration volume for component H+ at time 10.000000 = 0.001427
+Node 0: Concentration volume for component HCO3- at time 10.000000 = 0.043393
+Node 0: Concentration volume for component Ca++ at time 10.000000 = 0.013012
+Node 0: Concentration volume for component H+ at time 20.000000 = 0.002628
+Node 0: Concentration volume for component HCO3- at time 20.000000 = 0.042658
+Node 0: Concentration volume for component Ca++ at time 20.000000 = 0.012929
+Node 0: Concentration volume for component H+ at time 30.000000 = 0.003725
+Node 0: Concentration volume for component HCO3- at time 30.000000 = 0.042028
+Node 0: Concentration volume for component Ca++ at time 30.000000 = 0.012951
+Node 0: Concentration volume for component H+ at time 40.000000 = 0.004870
+Node 0: Concentration volume for component HCO3- at time 40.000000 = 0.041349
+Node 0: Concentration volume for component Ca++ at time 40.000000 = 0.012925
+Node 0: Concentration volume for component H+ at time 50.000000 = 0.006016
+Node 0: Concentration volume for component HCO3- at time 50.000000 = 0.040670
+Node 0: Concentration volume for component Ca++ at time 50.000000 = 0.012898
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Problem solved 

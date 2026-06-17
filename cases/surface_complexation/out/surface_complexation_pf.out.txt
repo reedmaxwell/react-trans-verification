@@ -1,0 +1,111 @@
+Node 0: Using process grid (1,1,1)
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Initializing geochemical system 
+Node 0: Successful creation of Alquimia interface
+ CrunchJunk0.out          
+
+  Title of simulation: Batch chemistry equilibrium surface complexation based on Steefel's Crun
+
+
+  --> Running in OS3D mode (time splitting of reaction and transport) 
+
+  Extended Debye-Huckel activity model
+
+   ---> Using database: surface-complexation.dbs                                                                            
+
+  Number of components:                          5
+
+  Number of secondary species:                   5
+
+  Number of kinetic minerals:                    1
+
+  Number of surface complexes:                   2
+
+     --> Calling database subroutine
+
+
+  Number of reactions:                              6
+  Number of complexes:                              5
+  Number of minerals:                               1
+  Number of gases:                                  0
+
+  END OF FIRST SURFACE COMPLEX READ
+
+  Number of surface complexes:                      6
+
+  END OF SECOND SURFACE COMPLEX READ
+
+  Number of surface complexes:                      6
+
+     --> Finished reading database
+  No ion exchange block found
+  Fixing porosity at  0.2500
+  No update of porosity
+
+  Current density module: temperature
+
+
+  ---> READING GEOCHEMICAL CONDITIONS  
+
+  No aqueous kinetics block found
+  Retardation parameters not found
+  Assuming NO retardation (Kd = 0) 
+Node 0: Successful setup() of Alquimia interface
+-- Alquimia Sizes :
+     num primary species : 5
+     num sorbed : 5
+     num minerals : 1
+     num aqueous complexes : 5
+     num aqueous kinetics : 0
+     num surface sites : 2
+     num ion exchange sites : 0
+     num gases: 0
+     num auxiliary integers : 1
+     num auxiliary doubles : 40
+ meta sizes:            5
+Node 0: Successful GetProblemMetaData() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemICs() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemBCs() of Alquimia interface
+Node 0: Initial concentration volume for component H+ = 0.000299
+Node 0: Initial concentration volume for component Na+ = 2.499696
+Node 0: Initial concentration volume for component NO3- = 2.500000
+Node 0: Initial concentration volume for component Zn++ = 0.000003
+Node 0: Initial concentration volume for component Cl- = 0.000000
+Node 0: Iter (1): ||r||_C = 1.004859e-14, ||r||_C/||b||_C = 6.377616e-17
+Node 0: Iter (2): ||r||_C = 6.431995e-31, ||r||_C/||b||_C = 4.082243e-33
+Node 0: Iter (3): ||r||_C = 3.215733e-46, ||r||_C/||b||_C = 2.040954e-48
+Node 0: Iter (4): ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Iterations = 4: ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Courant Numbers : [1.000000e+00 , 0.000000e+00, 0.000000e+00]
+Node 0: Maximum Field Value = 1.000000e+00
+Node 0: Concentration volume for component H+ at time 10.000000 = 0.000283
+Node 0: Concentration volume for component Na+ at time 10.000000 = 2.499718
+Node 0: Concentration volume for component NO3- at time 10.000000 = 2.500000
+Node 0: Concentration volume for component Zn++ at time 10.000000 = 0.000004
+Node 0: Concentration volume for component Cl- at time 10.000000 = 0.000000
+Node 0: Concentration volume for component H+ at time 20.000000 = 0.000268
+Node 0: Concentration volume for component Na+ at time 20.000000 = 2.499741
+Node 0: Concentration volume for component NO3- at time 20.000000 = 2.500000
+Node 0: Concentration volume for component Zn++ at time 20.000000 = 0.000006
+Node 0: Concentration volume for component Cl- at time 20.000000 = 0.000000
+Node 0: Concentration volume for component H+ at time 30.000000 = 0.000252
+Node 0: Concentration volume for component Na+ at time 30.000000 = 2.499763
+Node 0: Concentration volume for component NO3- at time 30.000000 = 2.500000
+Node 0: Concentration volume for component Zn++ at time 30.000000 = 0.000008
+Node 0: Concentration volume for component Cl- at time 30.000000 = 0.000000
+Node 0: Concentration volume for component H+ at time 40.000000 = 0.000237
+Node 0: Concentration volume for component Na+ at time 40.000000 = 2.499786
+Node 0: Concentration volume for component NO3- at time 40.000000 = 2.500000
+Node 0: Concentration volume for component Zn++ at time 40.000000 = 0.000010
+Node 0: Concentration volume for component Cl- at time 40.000000 = 0.000000
+Node 0: Concentration volume for component H+ at time 50.000000 = 0.000222
+Node 0: Concentration volume for component Na+ at time 50.000000 = 2.499808
+Node 0: Concentration volume for component NO3- at time 50.000000 = 2.500000
+Node 0: Concentration volume for component Zn++ at time 50.000000 = 0.000012
+Node 0: Concentration volume for component Cl- at time 50.000000 = 0.000000
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Problem solved 

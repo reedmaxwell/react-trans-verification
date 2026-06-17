@@ -1,0 +1,96 @@
+Node 0: Using process grid (1,1,1)
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Initializing geochemical system 
+Node 0: Successful creation of Alquimia interface
+ CrunchJunk0.out          
+
+  Title of simulation: Ion exchange benchmark test for amanzi-alquimia, for CrunchFlow backend 
+
+
+  --> Running in OS3D mode (time splitting of reaction and transport) 
+
+  Unit activity coefficients
+
+   ---> Using database: ion-exchange.dbs                                                                                    
+
+  Number of components:                          4
+
+  Number of secondary species:                   0
+
+  Number of kinetic minerals:                    0
+
+  No surface complexation block found
+
+     --> Calling database subroutine
+
+
+  Number of reactions:                              0
+  Number of complexes:                              0
+  Number of minerals:                               0
+  Number of gases:                                  0
+
+     --> Finished reading database
+  Fixing porosity at  0.2500
+  No update of porosity
+
+  Current density module: temperature
+
+
+  ---> READING GEOCHEMICAL CONDITIONS  
+
+  No aqueous kinetics block found
+  Retardation parameters not found
+  Assuming NO retardation (Kd = 0) 
+Node 0: Successful setup() of Alquimia interface
+-- Alquimia Sizes :
+     num primary species : 4
+     num sorbed : 4
+     num minerals : 0
+     num aqueous complexes : 0
+     num aqueous kinetics : 0
+     num surface sites : 0
+     num ion exchange sites : 1
+     num gases: 0
+     num auxiliary integers : 1
+     num auxiliary doubles : 27
+ meta sizes:            4
+Node 0: Successful GetProblemMetaData() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemICs() of Alquimia interface
+ AllocateAlquimiaGeochemicalConditionList() : 1
+Node 0: Successful ProcessGeochemBCs() of Alquimia interface
+Node 0: Initial concentration volume for component Na+ = 2.156175
+Node 0: Initial concentration volume for component Ca++ = 0.453669
+Node 0: Initial concentration volume for component Mg++ = 0.276688
+Node 0: Initial concentration volume for component Cl- = 3.616890
+Node 0: Iter (1): ||r||_C = 1.004859e-14, ||r||_C/||b||_C = 6.377616e-17
+Node 0: Iter (2): ||r||_C = 6.431995e-31, ||r||_C/||b||_C = 4.082243e-33
+Node 0: Iter (3): ||r||_C = 3.215733e-46, ||r||_C/||b||_C = 2.040954e-48
+Node 0: Iter (4): ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Iterations = 4: ||r||_C = 1.631982e-61, ||r||_C/||b||_C = 1.035782e-63
+Node 0: Courant Numbers : [1.000000e+00 , 0.000000e+00, 0.000000e+00]
+Node 0: Maximum Field Value = 1.000000e+00
+Node 0: Concentration volume for component Na+ at time 10.000000 = 1.977341
+Node 0: Concentration volume for component Ca++ at time 10.000000 = 0.408227
+Node 0: Concentration volume for component Mg++ at time 10.000000 = 0.248974
+Node 0: Concentration volume for component Cl- at time 10.000000 = 3.291744
+Node 0: Concentration volume for component Na+ at time 20.000000 = 1.795345
+Node 0: Concentration volume for component Ca++ at time 20.000000 = 0.363766
+Node 0: Concentration volume for component Mg++ at time 20.000000 = 0.221861
+Node 0: Concentration volume for component Cl- at time 20.000000 = 2.966598
+Node 0: Concentration volume for component Na+ at time 30.000000 = 1.613123
+Node 0: Concentration volume for component Ca++ at time 30.000000 = 0.319374
+Node 0: Concentration volume for component Mg++ at time 30.000000 = 0.194790
+Node 0: Concentration volume for component Cl- at time 30.000000 = 2.641451
+Node 0: Concentration volume for component Na+ at time 40.000000 = 1.430799
+Node 0: Concentration volume for component Ca++ at time 40.000000 = 0.275014
+Node 0: Concentration volume for component Mg++ at time 40.000000 = 0.167739
+Node 0: Concentration volume for component Cl- at time 40.000000 = 2.316305
+Node 0: Concentration volume for component Na+ at time 50.000000 = 1.248414
+Node 0: Concentration volume for component Ca++ at time 50.000000 = 0.230673
+Node 0: Concentration volume for component Mg++ at time 50.000000 = 0.140700
+Node 0: Concentration volume for component Cl- at time 50.000000 = 1.991159
+Node 0: Well Information
+Node 0: No Wells.
+Node 0: Problem solved 
