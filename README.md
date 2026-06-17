@@ -6,9 +6,15 @@ benchmark cases, the cross-check against Amanzi's PFLOTRAN reference, the output
 figures/summaries, and the team report.
 
 It is **analysis, not part of the ParFlow repo** — it lives in a project
-workspace one level above the `parflow/` git checkout and is tracked here
-separately. See `benchmark-report/react_trans_benchmark_report.pdf` for the writeup;
-this file is the operational how-to to reproduce it.
+workspace one level above the `parflow/` git checkout and is tracked as its own
+standalone repo (`reedmaxwell/react-trans-verification`). See
+`benchmark-report/react_trans_benchmark_report.pdf` for the writeup; this file is
+the operational how-to to reproduce it.
+
+> **Paths:** the scripts here reference a workspace that holds `parflow/`,
+> `rt-stack/`, and this tree side by side. Set `RT_ROOT` to that workspace (or
+> edit the `/path/to/parflow_RT_merge` placeholder in each script) before
+> running — no machine-specific absolute paths are committed.
 
 ---
 
